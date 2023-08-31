@@ -111,7 +111,7 @@ const Products = () => {
             {product ? (
               product.map((data) => {
                 return (
-                  <div className="card col-3 m-1 border-2 rounded-2">
+                  <div className="card col-12 col-lg-3 m-1 border-2 rounded-2">
                     <img
                       src={data.thumbnail}
                       className="card-img-top img-fluid"

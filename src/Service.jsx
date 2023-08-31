@@ -9,8 +9,8 @@ const Service = () => {
       <div className="container">
         <div className="row">
           <h2 className="text-center text-primary py-3">our services</h2>
-          <div className="col-12 d-flex gap-3 justify-content-center align-items-center py-4">
-            <div className="card col-3 text-center">
+          <div className="col-12 py-4 d-lg-flex justify-content-lg-center align-items-lg-center gap-lg-3">
+            <div className="card col-12 col-lg-3 text-center mb-3 mb-lg-0">
               <img
                 src={service1}
                 className="card-img-top img-fluid"
@@ -27,7 +27,7 @@ const Service = () => {
                 </Link>
               </div>
             </div>
-            <div className="card col-3 text-center">
+            <div className="card col-12 col-lg-3 text-center  mb-3 mb-lg-0">
               <img
                 src={service2}
                 className="card-img-top img-fluid"
@@ -44,7 +44,7 @@ const Service = () => {
                 </Link>
               </div>
             </div>
-            <div className="card col-3 text-center">
+            <div className="card col-12 col-lg-3 text-center  mb-3 mb-lg-0">
               <img
                 src={service3}
                 className="card-img-top img-fluid"

@@ -4,7 +4,7 @@ const About = () => {
       <div className="container">
         <h2 className="text-center text-primary py-2">About Us</h2>
         <div className="row">
-          <div className="col-12 pt-5 d-flex align-items-center justify-content-center">
+          <div className="col-12 pt-lg-5 d-lg-flex align-items-lg-center justify-content-lg-center">
             <div>
               <h4 className="text-center">Our Story</h4>
               <p>
